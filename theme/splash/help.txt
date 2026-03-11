@@ -1,0 +1,7 @@
+a splash theme for kde:
+# install and setup
+git clone https://github.com/nnreall3/kde-customize.git
+cd kde-customize
+cp -r splash/themes/* ~/.local/share/plasma/look-and-feel/
+cp splash/random-splash.sh ~/.config/old-autostart-scripts/
+chmod +x ~/.config/old-autostart-scripts/random-splash.sh
