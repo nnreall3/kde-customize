@@ -1,0 +1,12 @@
+####	WARNING : YOU NEED KDE ####
+
+KDE-Plasma theme (MacTahoe-theme):
+
+# install
+git clone https://github.com/vinceliuice/MacTahoe-kde
+
+# setup
+cd MacTahoe-kde/
+./install.sh
+
+from System Settings --> choise your configuration theme
