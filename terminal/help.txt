@@ -1,0 +1,64 @@
+#### WARNING : YOU NEED KDE ####
+
+to download terminal apps and all settings:
+
+# install
+	1. debian(apt):
+another things: 
+sudo apt install git
+sudo apt install curl
+
+fish:	sudo apt install fish
+kitty:	sudo apt install kitty
+starship:	curl -sS https://starship.rs/install.sh | sh
+
+	2. arch(pacman):
+another things:
+sudo pacman -S git
+sudo pacman -S curl
+
+fish:	sudo pacman -S fish
+kitty:	sudo pacman -S kitty
+starship:	sudo pacman -S starship		or	curl -sS https://starship.rs/install.sh | sh
+
+	3. red hat(dnf)
+another things:
+sudo dnf install curl
+sudo dnf install git
+
+fish:	sudo dnf install fish
+kitty:	sudo dnf install kitty
+starship:	sudo dnf install starship	or	curl -sS https://starship.rs/install.sh | sh
+
+	4. openSUSE(zypper):
+another things:
+sudo zypper install git
+sudo zypper install curl
+
+fish:	sudo zypper install fish
+kitty:	sudo zypper install kitty
+starship: sudo zypper install starship		or	curl -sS https://starship.rs/install.sh | sh
+
+	5.Gentoo(emerge):
+another things:
+sudo emerge git
+sudo emerge curl
+
+fish:	sudo emerge fish
+kitty:	sudo emerge kitty
+starship:	sudo emerge starship		or	curl -sS https://starship.rs/install.sh | sh
+
+
+# setup
+fish: chsh -s $(which fish)
+kitty: from System Settings ---> Applications ---> Default Applications ---> Terminal == kitty
+		and log out - log in
+
+open terminal:  
+git clone https://github.com/nnreall3/kde-customize.git
+cd kde-customize/terminal
+cp config.fish ~/.config/fish/
+cp kitty.conf ~/.config/kitty/
+cp starship.toml ~/.config
+
+	and log out - log in
